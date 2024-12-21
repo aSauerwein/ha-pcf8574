@@ -1,7 +1,7 @@
 {
   "domain": "pcf8574",
   "name": "pcf8574",
-  "config_flow": false,
+  "config_flow": true,
   "documentation": "https://github.com/aSauerwein/ha-pcf8574",
   "requirements": [
     "pcf8574==0.1.3"
