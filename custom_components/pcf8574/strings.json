@@ -3,15 +3,21 @@
     "step": {
       "user": {
         "data": {
-          "host": "[%key:common::config_flow::data::host%]",
-          "username": "[%key:common::config_flow::data::username%]",
-          "password": "[%key:common::config_flow::data::password%]"
+          "i2c_port_num": "I2C Port Number",
+          "i2c_address": "I2C Address"
+        }
+      },
+      "pin": {
+        "data": {
+          "pin_name": "Pin Name",
+          "input": "Binary Sensor (Y/N)",
+          "invert_logic": "Invert Logic",
+          "add_another": "Add another Pin"
         }
       }
     },
     "error": {
-      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
-      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "ioerror": "Cannot access the device. Ensure you have I2C enabled on your system.",
       "unknown": "[%key:common::config_flow::error::unknown%]"
     },
     "abort": {

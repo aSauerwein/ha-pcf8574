@@ -4,16 +4,22 @@
             "already_configured": "Device is already configured"
         },
         "error": {
-            "cannot_connect": "Failed to connect",
-            "invalid_auth": "Invalid authentication",
+            "ioerror": "Cannot access the device. Ensure you have I2C enabled on your system.",
             "unknown": "Unexpected error"
         },
         "step": {
+            "pin": {
+                "data": {
+                    "add_another": "Add another Pin",
+                    "input": "Binary Sensor (Y/N)",
+                    "invert_logic": "Invert Logic",
+                    "pin_name": "Pin Name"
+                }
+            },
             "user": {
                 "data": {
-                    "host": "Host",
-                    "password": "Password",
-                    "username": "Username"
+                    "i2c_address": "I2C Address",
+                    "i2c_bus_num": "I2C Bus Number"
                 }
             }
         }
