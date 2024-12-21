@@ -4,6 +4,7 @@
   "config_flow": false,
   "documentation": "https://github.com/aSauerwein/ha-pcf8574",
   "requirements": [],
+  "version": "0.0.1",
   "ssdp": [],
   "zeroconf": [],
   "homekit": {},
