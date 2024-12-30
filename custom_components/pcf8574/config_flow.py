@@ -77,7 +77,6 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         self._abort_if_unique_id_configured()
 
         try:
-
             await validate_input(self.hass, user_input)
         except OSError:
             errors["base"] = "ioerror"
